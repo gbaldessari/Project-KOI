@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/Enemigos/Boss 1/BossContainer.cs.meta
+guid: 3228edbf4192d64439cf0cced76647c5
+========
+guid: 6221d64c350ffad48a166ebffb286206
+>>>>>>>> origin/Optimizacion-Creacion:Assets/Scripts/DontDestroy.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

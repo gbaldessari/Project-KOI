@@ -1,0 +1,1442 @@
+fileFormatVersion: 2
+guid: 8f1db84ab0ff76041b5ce414229936ce
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 75
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f009c9cbacb9d3446ab429bae19e94ac
+      internalID: 936468265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_1"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb3e838f8e985e4d8e389a581b33f2d
+      internalID: 1964412953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_2"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e27d17433b3e264e8b205dbf1d3ad37
+      internalID: 465562033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_3"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3d6db182d9f0645b609dbf14fdf0fb
+      internalID: 1277088182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_4"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2c6530ec8bc7c4597b56d133e4f7b6
+      internalID: -953294615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_5"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49303441b5dd2748ab15b3a5412bc9d
+      internalID: 1111351250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_6"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af0420f6e00b674c8cef91f0285e36f
+      internalID: -89889484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_7"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbe601ae85ce0c4e983bb0f95a4b1c9
+      internalID: -1805474803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_8"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8691989c7e09545b4d45a5f78a6333
+      internalID: 934776736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_9"
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2915239344e51154b891140fff8d1a50
+      internalID: 1714325318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_10"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bb78f2cb248a7449ee06d326b35469
+      internalID: 1924794449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_11"
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf73ce6835b28144a5eb24307c9dc1e
+      internalID: 229991552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_12"
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db05a541e8d029b44b4a240abd3a764d
+      internalID: -1183938744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_13"
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2270ea1a595f48c449e1237c292ae0a0
+      internalID: -930157031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_14"
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac4fe43aedec024e9e9034a6aeccf3a
+      internalID: 490647855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_15"
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6240a0046c91a2149ad4bc9a5bef0a70
+      internalID: -1768795368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_16"
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efeefe851f01bf4796fac3a26e71717
+      internalID: 2031674694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_17"
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1039947839a774b96616808a36d869
+      internalID: 1708711508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_18"
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed14605535ceb1748aee74a845fd1a21
+      internalID: -323680207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_19"
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ab3a9e10eac4541a19fbac3607e67f
+      internalID: -647624863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_20"
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c106d082ac099947afec864649beabb
+      internalID: -64485208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_21"
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da9f4aeb3235e841a30e0bb3172f99a
+      internalID: -1881522849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_22"
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf256ce3431e0145882f98b996548a4
+      internalID: 330181426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_23"
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ec89f3bc0ea5544b08161e7504a383
+      internalID: 1236409215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_24"
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e9288403aa96f4a8ed06c21cedbcd4
+      internalID: 918615311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_25"
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64899b83cbc9d7946a3396e52a64687b
+      internalID: 56534174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_26"
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed938770e47b234da6bb68d1163e836
+      internalID: -397093392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_27"
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d2c73c00f742e469eb6ae9afd7de94
+      internalID: 1205553589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_28"
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d245b24f455614e81393f6417c7e6d
+      internalID: -1183064640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_29"
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c788d6ba4beb8e44e9269bc0a6f60130
+      internalID: 939309604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_30"
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbaeabc217cacc4ea7d424e0bc73319
+      internalID: 822660788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_31"
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41f41408120425458b1b399b4665f6d
+      internalID: -2025092000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_32"
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b23aeb2a8e527a48a3c81649f7ab57f
+      internalID: 403478769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_33"
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add82d176807a334b9f1991c7b2b14f9
+      internalID: 1951509924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_34"
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72809c615bad7f140818702441de8ac6
+      internalID: 1288879210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_35"
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b1b6c255a863846a8431d79b6c6d69
+      internalID: -1999951404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_36"
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6545944cd48d424c998bf5a3da80fc7
+      internalID: 546102620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_37"
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647cba14a443bd946bc7b63bee60dbab
+      internalID: 1537171124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_38"
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8219de97ad70034889e1355da4b6a90
+      internalID: -1066835061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_39"
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cabe1d6bd32fe4db20adfbd3242f24
+      internalID: -766419393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_40"
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb86290126d8424ea6c899c29c7bb09
+      internalID: 738161611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_41"
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b482d42542bb04f86038b72ded6e58
+      internalID: -1875024836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_42"
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541275d7526a51143a01a27bcd3cee84
+      internalID: -1466441129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_43"
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1461925d1cf247449b189f8d10628e9
+      internalID: -394768632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_44"
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee43b5bedb143a4ca5528cfca0030ef
+      internalID: -1821274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_45"
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88375a324277f243aa52511c968644f
+      internalID: -2133088162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_46"
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c10901a96f2fd54a8596a994a5f22d4
+      internalID: 826477736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_47"
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e60f9b920bef54fb1cea208a625dac
+      internalID: 1676278148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_48"
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385a9778658172141850a963e52bd3e0
+      internalID: -943606830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_49"
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a103652d6768e348a446a350436cf20
+      internalID: 1389040551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_50"
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d06857ee040a8a439367dcc9991a901
+      internalID: -927349502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_51"
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4ef6a0b596c8f4a962c2eaec6c1d53
+      internalID: 716138131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_52"
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b65a52765113a944a7d338ae705704a
+      internalID: -93182739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_53"
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eff2b78509c81d43aa17b31b7cb52ad
+      internalID: -1363913113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_54"
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819da17889c5fe4479c91274403e0b95
+      internalID: 2127109839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_55"
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d857f612ea62c4e8d6f1478bd8ae8f
+      internalID: 1114715975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_56"
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b21863be1b6c8469993426b3c316f4
+      internalID: 1312700398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_57"
+      rect:
+        serializedVersion: 2
+        x: 3648
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af35b3a00994464381dd67d4e9953e2
+      internalID: 391509468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_58"
+      rect:
+        serializedVersion: 2
+        x: 3712
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bced524c997f0f84c91473590654df91
+      internalID: 61312186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_59"
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5030425172d8f47a37789041a237ae
+      internalID: 611608858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_21": -1881522849
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_46": 826477736
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_17": 1708711508
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_32": 403478769
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_56": 1312700398
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_26": -397093392
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_52": -93182739
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_57": 391509468
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_10": 1924794449
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_3": 1277088182
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_23": 1236409215
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_48": -943606830
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_12": -1183938744
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_0": 936468265
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_13": -930157031
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_20": -64485208
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_7": -1805474803
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_11": 229991552
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_47": 1676278148
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_38": -1066835061
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_37": 1537171124
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_2": 465562033
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_50": -927349502
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_30": 822660788
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_34": 1288879210
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_18": -323680207
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_40": 738161611
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_49": 1389040551
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_24": 918615311
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_19": -647624863
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_29": 939309604
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_22": 330181426
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_39": -766419393
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_45": -2133088162
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_14": 490647855
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_51": 716138131
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_33": 1951509924
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_35": -1999951404
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_41": -1875024836
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_28": -1183064640
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_8": 934776736
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_31": -2025092000
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_55": 1114715975
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_15": -1768795368
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_1": 1964412953
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_58": 61312186
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_4": -953294615
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_54": 2127109839
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_59": 611608858
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_5": 1111351250
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_43": -394768632
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_16": 2031674694
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_44": -1821274
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_9": 1714325318
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_27": 1205553589
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_42": -1466441129
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_6": -89889484
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_53": -1363913113
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_36": 546102620
+      "bullet1_pa_Nueva animaci\xF3n_dir1_01-sheet_25": 56534174
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
