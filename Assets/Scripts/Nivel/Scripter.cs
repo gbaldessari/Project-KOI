@@ -332,8 +332,11 @@ public class Scripter : MonoBehaviour
     /// </summary>
     private void OnGameOver()
     {
+        int dataKey = GlobalSettings.activeSlot;
+        float timePlayed = PlayerPrefs.GetFloat(dataKey + "TimePlayed");
         isGameOver = true;
         musicaNivel.Pause(); // Para la música del nivel
+        PlayerPrefs.SetFloat(dataKey + "TimePlayed", timePlayed + tiempoTranscurrido); // Guarda el tiempo jugado
         Time.timeScale = 0f; // Para el tiempo en el juego (cero = pause total)
         gameOverMenu.SetActive(true);  // Activa el menú de Game Over
         gameOverMenu.GetComponentsInChildren<Button>()[0].Select(); // Selecciona el primer botón
