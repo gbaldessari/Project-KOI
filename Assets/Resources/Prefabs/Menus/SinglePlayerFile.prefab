@@ -1549,6 +1549,18 @@ PrefabInstance:
       value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_fontSizeBase
       value: 22
       objectReference: {fileID: 0}
@@ -1559,6 +1571,10 @@ PrefabInstance:
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_enableAutoSizing
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278255615
       objectReference: {fileID: 0}
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_VerticalAlignment
@@ -1879,6 +1895,10 @@ PrefabInstance:
       value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_fontSizeBase
       value: 22
       objectReference: {fileID: 0}
@@ -1889,6 +1909,10 @@ PrefabInstance:
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_enableAutoSizing
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278255615
       objectReference: {fileID: 0}
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_VerticalAlignment

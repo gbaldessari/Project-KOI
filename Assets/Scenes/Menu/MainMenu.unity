@@ -10359,7 +10359,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: KOI-456
+  m_text: Project KOI
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -12725,6 +12725,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 695539289040904291, guid: 3ef8c8ac28df8ca49ad09d27c4d6d739, type: 3}
+      propertyPath: m_Volume
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1993554138109866627, guid: 3ef8c8ac28df8ca49ad09d27c4d6d739, type: 3}
+      propertyPath: m_Volume
+      value: 0.4
+      objectReference: {fileID: 0}
     - target: {fileID: 4873801049470035857, guid: 3ef8c8ac28df8ca49ad09d27c4d6d739, type: 3}
       propertyPath: m_RootOrder
       value: 3
