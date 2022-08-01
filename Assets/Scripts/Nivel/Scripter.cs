@@ -75,6 +75,9 @@ public class Scripter : MonoBehaviour
     {
         Time.timeScale = 1f;
 
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
         soundObject = FindObjectOfType<SoundObject>(); // Obtenemos el Sound Object
         musicaNivel = soundObject.GetAndPlayMusicBackground(SceneManager.GetActiveScene().buildIndex); // Obtiene la música del nivel y la reproduce en loop
 
@@ -255,6 +258,9 @@ public class Scripter : MonoBehaviour
         if (isLevelCompleted) return; // Si está en el menú de nivel completado, no se puede poner pausa
         if (dialogueManager.isDialogueActive) return; // Si está en pleno diálogo, no se puede poner pausa
 
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
         if (!isPaused && !context.control.Equals(inputActions.PlayerOne.BasedMode.controls[0])) PauseGame();
         else if (isPaused && pauseMenu.activeSelf)
         {
@@ -282,6 +288,10 @@ public class Scripter : MonoBehaviour
     {
         musicaNivel.UnPause(); // Sigue la música del nivel
         pauseMenu.SetActive(false); // Quita el menú de pausa
+
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
         Time.timeScale = 1f; // Para el tiempo en el juego (uno = tiempo normal)
         isPaused = false; // Cambia el estado del juego
     }
@@ -343,12 +353,29 @@ public class Scripter : MonoBehaviour
     }
 
     /// <summary>
+    /// Se devuelve al menu principal.
+    /// </summary>
+    public void OnExit()
+    {
+        int dataKey = GlobalSettings.activeSlot;
+        float timePlayed = PlayerPrefs.GetFloat(dataKey + "TimePlayed");
+        PlayerPrefs.SetFloat(dataKey + "TimePlayed", timePlayed + tiempoTranscurrido); // Guarda el tiempo jugado
+        MainMenu();
+    }
+    /// <summary>
     /// Permite acabar y reiniciar el nivel desde cero.
     /// </summary>
     public void RestartGame()
     {
+        int dataKey = GlobalSettings.activeSlot;
+        float timePlayed = PlayerPrefs.GetFloat(dataKey + "TimePlayed");
         Time.timeScale = 1f; // Para el tiempo en el juego (uno = tiempo normal)
         inputActions.UI.Escape.started -= InvokePause; // La función InvokePause es añadido al listener del evento Escape (started)
+        PlayerPrefs.SetFloat(dataKey + "TimePlayed", timePlayed + tiempoTranscurrido); // Guarda el tiempo jugado
+
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Recarga esta escena
     }
 
@@ -387,6 +414,9 @@ public class Scripter : MonoBehaviour
     {
         if (isPaused) ResumeGame(); // Si está pausado (pausaron en última instancia) quitará el pause
         if (isGameOver) return;  // Si el jugador murió milisegundos antes de ganar el nivel, se considera una derrota
+
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
 
         isLevelCompleted = true; // The player completed the level
         musicaNivel.Pause(); // Para la música del nivel
