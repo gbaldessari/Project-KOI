@@ -349,6 +349,10 @@ public class Scripter : MonoBehaviour
         PlayerPrefs.SetFloat(dataKey + "TimePlayed", timePlayed + tiempoTranscurrido); // Guarda el tiempo jugado
         Time.timeScale = 0f; // Para el tiempo en el juego (cero = pause total)
         gameOverMenu.SetActive(true);  // Activa el menú de Game Over
+
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
         gameOverMenu.GetComponentsInChildren<Button>()[0].Select(); // Selecciona el primer botón
     }
 
