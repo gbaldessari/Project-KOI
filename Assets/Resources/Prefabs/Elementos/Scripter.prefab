@@ -5223,6 +5223,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -110
       objectReference: {fileID: 0}
+    - target: {fileID: 7084012358866724765, guid: 49349c64e2cab7a43b032532a40d3fd3, type: 3}
+      propertyPath: m_text
+      value: Bomb
+      objectReference: {fileID: 0}
     - target: {fileID: 7084012359001224150, guid: 49349c64e2cab7a43b032532a40d3fd3, type: 3}
       propertyPath: m_SizeDelta.x
       value: 573.96

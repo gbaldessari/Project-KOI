@@ -12688,14 +12688,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 695539289040904291, guid: 3ef8c8ac28df8ca49ad09d27c4d6d739, type: 3}
-      propertyPath: m_Volume
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1993554138109866627, guid: 3ef8c8ac28df8ca49ad09d27c4d6d739, type: 3}
-      propertyPath: m_Volume
-      value: 0.4
-      objectReference: {fileID: 0}
     - target: {fileID: 4873801049470035857, guid: 3ef8c8ac28df8ca49ad09d27c4d6d739, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -12919,9 +12911,17 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 790692007}
+    - target: {fileID: 7084012358866724765, guid: 49349c64e2cab7a43b032532a40d3fd3, type: 3}
+      propertyPath: m_text
+      value: Bomb
+      objectReference: {fileID: 0}
     - target: {fileID: 7084012359057098634, guid: 49349c64e2cab7a43b032532a40d3fd3, type: 3}
       propertyPath: m_Name
       value: ControlsMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084012359057098634, guid: 49349c64e2cab7a43b032532a40d3fd3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7084012359057098635, guid: 49349c64e2cab7a43b032532a40d3fd3, type: 3}
       propertyPath: m_Pivot.x
