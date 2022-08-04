@@ -27,4 +27,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu/Credits.unity
     guid: ccf08fbb778b4b34ab24e12612f1219f
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: b21855db6ea85b242b8274f1b020979e, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 84f0813c4e5b7e7488e9b86e843f5f3f, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 9ad26be2ee3c42a4aacfbd71b2ecbc38, type: 2}
