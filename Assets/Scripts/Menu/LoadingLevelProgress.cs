@@ -21,14 +21,15 @@ public class LoadingLevelProgress : MonoBehaviour
     {
         "Get an attack boost by collecting 40 based coins without dying!",
         "Press and hold [Slowdown] for extra accuracy",
-        "Your power bar recharges over time",
-        "If your power bar is completed, press [Based Mode] to release your special attack!",
+        "Your life bar recharges over time",
+        "If your life bar is completed press [Bomb] to release your special attack, but be careful, it has consequences!",
         "No-hit players are rewarded with a special gift",
-        "Sometimes offense is the best defense!",
-        "Remember that you can always change the controls in settings",
-        "There is a legend telling the story of brightly colored heroes who saved the world",
+        "Remember that you can always change the controls!",
         "The vast majority of wildlife has become extinct due to war, only a few species are visible to the naked eye",
-        "Bosses can drop an orb of power that will give you an attack boost"
+        "Bosses can drop an orb of power that will give you an attack boost",
+        "Also try Majotori!",
+        "Moai are monolithic human figures carved by the Rapa Nui people on Easter Island in eastern Polynesia between the years 1250 and 1500",
+        "The Pudu is a species of South American deer, and is the smallest deer in the world"
     };
 
 

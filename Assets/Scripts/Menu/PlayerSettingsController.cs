@@ -13,7 +13,7 @@ public class PlayerSettingsController : MonoBehaviour
     {
         { "White", "#FFFFFF" }, // Blanco
         { "Green", "#4DB030" }, // Verde
-        { "Red", "#C80B25" }, // Rojo
+        { "Red", "#FF5656" }, // Rojo
         { "Orange", "#F3722C" }, // Naranja
     };
 

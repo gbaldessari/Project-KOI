@@ -3,6 +3,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Threading.Tasks;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -108,6 +109,12 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     void FixedUpdate()
     {
+        if (SceneManager.GetActiveScene().name == "Level 1") sombraJugador.transform.localPosition = new Vector3(2, -6, 1);
+        if (SceneManager.GetActiveScene().name == "Level 2") sombraJugador.transform.localPosition = new Vector3(0, -6, 1);
+        if (SceneManager.GetActiveScene().name == "Level 3") sombraJugador.transform.localPosition = new Vector3(-2, -6, 1);
+        if (SceneManager.GetActiveScene().name == "Level 4") sombraJugador.transform.localPosition = new Vector3(0, 6, 1);
+        if (SceneManager.GetActiveScene().name == "Level 5") sombraJugador.transform.localPosition = new Vector3(2, -6, 1);
+
         if (gameObject.GetComponent<Animator>().GetBool("Die") == true) return; // Si la nave está en proceso de muerte, retorna
         if (accionEntrada.actions[1].IsPressed()) FireBullet(); // Dispara si se presionó la tecla de disparo
         if (isBased) FireBomb(); // Si el jugador esta basado, libera una bomba
@@ -118,6 +125,8 @@ public class PlayerController : MonoBehaviour
 
         if (coinsCollected >= 40 || basedCoreRecogido) multiplesDisparos = true; // Si el numero de monedas es igual a la cantidad ingresada o se ha recogido un based core, la nave puede disparar multiples veces
         else multiplesDisparos = false;
+
+        scripter.SetCoins(coinsCollected);
         if (multiplesDisparos) FireProyectile(); // Si la nave puede realizar multiples disparos, dispara xd
 
         if(isSlowingDown)hitBox.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, Mathf.PingPong(Time.time*3, 1f)); // La opacidad de la hitbox varia entre 0 y 1 con respecto al tiempo
@@ -301,7 +310,6 @@ public class PlayerController : MonoBehaviour
         {
             PararBarraModoBasado(1900);
             basedCoreRecogido = false; // En caso de que se haya recogido un nucleo basado antes de morir
-            coinsCollected = 0; // Se eliminan las monedas guardadas
             gameObject.GetComponent<Animator>().SetBool("Die", true); // Se activa flag de muerte (animación de explosión)
             isIntangible = true; // La nave ahora es intangible
             if (isBased == true) isBased = canBased = false; // Deshabilita el modo basado y no podrá basarse otra vez al reaparecer
@@ -317,6 +325,7 @@ public class PlayerController : MonoBehaviour
 
             gameObject.GetComponent<Animator>().SetBool("Die", false); // Se desactiva flag de muerte
             transform.position = spawnPosition; // Mueve la nave al punto de Respawn
+            coinsCollected = 0; // Se eliminan las monedas guardadas
             barraModoBasado.SetValue(scripter.isHardMode ? 0f : 0.5f); // Rellena media barra si es modo normal, la reinicia en modo difícil
             gameObject.GetComponent<Animator>().SetBool("Spawning", true); // Se activa flag de spawning
             await Task.Delay(1000); // Pausará el thread por 1 segundo (para dar tiempo de invulnerabilidad)

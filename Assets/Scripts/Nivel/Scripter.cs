@@ -34,6 +34,7 @@ public class Scripter : MonoBehaviour
     private GameObject highScoreText; // Texto que contiene el highscore (from the Hud)
     private GameObject scoreText; // Texto que contiene el score (from the Hud)
     private GameObject timeText; // Texto que contiene el tiempo (from the Hud)
+    private GameObject coinText;
 
     [HideInInspector] public bool isMultiplayer; // true = multiplayer (2 jugadores), false = singlepLayer (1 jugador)
     [HideInInspector] public bool isHardMode; // true = hard difficulty, false = normal difficulty
@@ -61,7 +62,7 @@ public class Scripter : MonoBehaviour
     {
         { 1, "#FFFFFF" }, // Blanco
         { 2, "#00FF00" }, // Verde
-        { 3, "#FF0000" }, // Rojo
+        { 3, "#FF5656" }, // Rojo
         { 4, "#F3722C" }, // Naranja
         { 94, "#72DDF7" }, // (Special) Pastel Blue Agito
         { 95, "#FFC8DD" }, // (Special) Rosa Pastel Nico
@@ -98,6 +99,7 @@ public class Scripter : MonoBehaviour
         highScoreText = hud.transform.GetChild(0).gameObject; // Obtenemos el texto de puntaje
         scoreText = hud.transform.GetChild(1).gameObject; // Obtenemos el texto de vidas
         timeText = hud.transform.GetChild(2).gameObject; // Obtenemos el texto de tiempo
+        coinText = hud.transform.GetChild(11).gameObject;
 
         pauseMenu.SetActive(false); // Desactiva el menú de pausa
         gameOverMenu.SetActive(false); // Desactiva el menú de Game Over
@@ -217,7 +219,10 @@ public class Scripter : MonoBehaviour
         puntuacion += score;
         scoreText.GetComponent<TextMeshProUGUI>().text = puntuacion.ToString("D7");
     }
-
+    public void SetCoins(int coins)
+    {
+        coinText.GetComponent<TextMeshProUGUI>().text = coins.ToString();
+    }
     /// <summary>
     /// Retorna el puntaje
     /// </summary>

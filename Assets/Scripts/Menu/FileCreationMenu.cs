@@ -13,7 +13,7 @@ public class FileCreationMenu : MonoBehaviour
     [SerializeField] private Button sumbitButtom;
 
     private readonly string normalDifficulty = "First time trying a Bullet Hell?\nMultiple lifes and classic rules.";
-    private readonly string hardDifficulty = "The ultimate KOI-456 challenge!\nOne life only and slower cooldowns, may you have luck.";
+    private readonly string hardDifficulty = "The ultimate Project-KOI challenge!\nOne life only and slower cooldowns, may you have luck.";
     private readonly string singleGamemode = "Singleplayer mode!\nPlay alone against the world!";
     private readonly string multiGamemode = "Multiplayer mode!\nGet a friend and save the world!";
 
