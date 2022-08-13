@@ -19,17 +19,33 @@ public class LoadingLevelProgress : MonoBehaviour
 
     private readonly List<string> hints = new List<string>()
     {
-        "Get an attack boost by collecting 40 based coins without dying!",
+        "Get an attack boost by collecting 40 Based Coins without dying!",
         "Press and hold [Slowdown] for extra accuracy",
         "Your life bar recharges over time",
         "If your life bar is completed press [Bomb] to release your special attack, but be careful, it has consequences!",
-        "No-hit players are rewarded with a special gift",
+        "No-hit players are rewarded with a special award",
         "Remember that you can always change the controls!",
         "The vast majority of wildlife has become extinct due to war, only a few species are visible to the naked eye",
         "Bosses can drop an orb of power that will give you an attack boost",
-        "Also try Majotori!",
+        "Also try Pureya!",
+        "Also try Flatworld!",
+        "Also try Karlson...if it was already released!",
         "Moai are monolithic human figures carved by the Rapa Nui people on Easter Island in eastern Polynesia between the years 1250 and 1500",
-        "The Pudu is a species of South American deer, and is the smallest deer in the world"
+        "The Pudu is a species of South American deer, and is the smallest deer in the world",
+        "If you are reading this, you are special to us!",
+        "Hi mom, I made a game!",
+        "Their own technology allowed us to face them",
+        "We believe that they come from the planet KOI-456.04",
+        "They...are like us...they are human",
+        "Only you can save the earth...we trust you",
+        "Sorry if some translations are wrong, we use google translate xd",
+        "It is incredible that they have such advanced technology, can we replicate it?",
+        "We believe that its base is on Easter Island, that would explain the moai that are appearing in the rest of the world",
+        "The best hint? Enjoy the game",
+        "F*ck the Allay, all my homies want the Copper Golem",
+        "Why are they attacking us?",
+        "Be better, be Based",
+        "The name of certain warriors unlocks special colors"
     };
 
 

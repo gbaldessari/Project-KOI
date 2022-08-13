@@ -13,6 +13,18 @@ public class Spawner : MonoBehaviour
     private int contadorBasado = 1;
     private int contador = 0;
 
+    public GameObject warningUp;
+    public GameObject warningDown;
+    public GameObject warningLeft;
+    public GameObject warningRight;
+
+    public bool wUp = false;
+    public bool wDown = false;
+    public bool wLeft = false;
+    public bool wRight = false;
+
+    private float tempoWarning = 2.5f;
+
     public int numeroDeEnemigos = 3;
     private bool activo = false;
 
@@ -21,16 +33,33 @@ public class Spawner : MonoBehaviour
     {
         if (activo == true)
         {
+            tempoWarning -= Time.deltaTime;
+
             if (contador == numeroDeEnemigos)
             {
                 activo = false;
             }
             if (activo)
             {
-                if (Time.time > siguienteDisparo)
+                if (contador == 0 && tempoWarning > 0)
                 {
-                    siguienteDisparo = Time.time + 1 / disparosPorSegundo;
-                    Disparo();
+                    if (wUp) warningUp.SetActive(true);
+                    if (wDown) warningDown.SetActive(true);
+                    if (wLeft) warningLeft.SetActive(true);
+                    if (wRight) warningRight.SetActive(true);
+                }
+                else
+                {
+                    warningUp.SetActive(false);
+                    warningDown.SetActive(false);
+                    warningLeft.SetActive(false);
+                    warningRight.SetActive(false);
+
+                    if (Time.time > siguienteDisparo)
+                    {
+                        siguienteDisparo = Time.time + 1 / disparosPorSegundo;
+                        Disparo();
+                    }
                 }
             }
         }
