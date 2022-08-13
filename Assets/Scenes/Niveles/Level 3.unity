@@ -752,6 +752,16 @@ MonoBehaviour:
   wLeft: 1
   wRight: 0
   numeroDeEnemigos: 10
+--- !u!1 &1244294667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6385233732451214872, guid: ba6810cc3ce623041926d8277d6213ef, type: 3}
+  m_PrefabInstance: {fileID: 604364250}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1244294668 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7053815013141026052, guid: ba6810cc3ce623041926d8277d6213ef, type: 3}
+  m_PrefabInstance: {fileID: 604364250}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2122267252
 GameObject:
   m_ObjectHideFlags: 0
@@ -1186,6 +1196,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 244322550}
     m_Modifications:
+    - target: {fileID: 4552295932690157849, guid: ee9cd1b19a973924c8db04bc5285502f, type: 3}
+      propertyPath: warningUp0
+      value: 
+      objectReference: {fileID: 604364255}
+    - target: {fileID: 4552295932690157849, guid: ee9cd1b19a973924c8db04bc5285502f, type: 3}
+      propertyPath: warningUp1
+      value: 
+      objectReference: {fileID: 1244294668}
+    - target: {fileID: 4552295932690157849, guid: ee9cd1b19a973924c8db04bc5285502f, type: 3}
+      propertyPath: warningUp2
+      value: 
+      objectReference: {fileID: 1244294667}
     - target: {fileID: 4552295932690157850, guid: ee9cd1b19a973924c8db04bc5285502f, type: 3}
       propertyPath: m_RootOrder
       value: 11

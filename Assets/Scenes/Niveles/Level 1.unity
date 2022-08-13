@@ -432,6 +432,16 @@ MonoBehaviour:
   wLeft: 1
   wRight: 0
   numeroDeEnemigos: 10
+--- !u!1 &650604926 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6385233732451214872, guid: ba6810cc3ce623041926d8277d6213ef, type: 3}
+  m_PrefabInstance: {fileID: 5705063054467182498}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &650604927 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7053815013141026052, guid: ba6810cc3ce623041926d8277d6213ef, type: 3}
+  m_PrefabInstance: {fileID: 5705063054467182498}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &885970134
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,6 +642,18 @@ PrefabInstance:
       propertyPath: hitSprite
       value: 
       objectReference: {fileID: 1850185443}
+    - target: {fileID: 3845961673609459023, guid: 935f76d075d51034cba39d29636647c7, type: 3}
+      propertyPath: warningUp0
+      value: 
+      objectReference: {fileID: 5705063054467182503}
+    - target: {fileID: 3845961673609459023, guid: 935f76d075d51034cba39d29636647c7, type: 3}
+      propertyPath: warningUp1
+      value: 
+      objectReference: {fileID: 650604927}
+    - target: {fileID: 3845961673609459023, guid: 935f76d075d51034cba39d29636647c7, type: 3}
+      propertyPath: warningUp2
+      value: 
+      objectReference: {fileID: 650604926}
     - target: {fileID: 3845961673609459023, guid: 935f76d075d51034cba39d29636647c7, type: 3}
       propertyPath: contenedorExplosiones
       value: 
@@ -858,7 +880,7 @@ MonoBehaviour:
   wUp: 0
   wDown: 0
   wLeft: 1
-  wRight: 1
+  wRight: 0
   numeroDeEnemigos: 10
 --- !u!1 &828242902428102463
 GameObject:

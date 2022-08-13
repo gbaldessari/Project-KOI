@@ -15,6 +15,8 @@ public class CreditsController : MonoBehaviour
         soundObject.GetAndPlayMusicBackground(3); // Reproduce la música Cereza
         animator = GetComponent<Animator>(); // Obtiene el animator
 
+        Cursor.visible = false;
+
         finalTime = 1000 / (2 / Time.deltaTime);
     }
 
@@ -29,5 +31,6 @@ public class CreditsController : MonoBehaviour
         if (time < finalTime) return;
         soundObject.GetAndPlayMusicBackground(0); // Reproduce la música del main menu
         SceneManager.LoadScene(0); // Se devuelve al Main Menu
+        Cursor.visible = true;
     }
 }

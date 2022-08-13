@@ -89,7 +89,7 @@ public class MainMenu : MonoBehaviour
         }
         else
         {
-            GetComponentsInChildren<Button>()[1].Select(); // Selecciona el primer botón
+            GetComponentsInChildren<Button>()[0].Select(); // Selecciona el primer botón
         }
 
         LoadPlayerFiles();

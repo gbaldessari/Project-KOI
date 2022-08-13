@@ -33,6 +33,8 @@ public class SettingsController : MonoBehaviour
         fullscreenToggle.onValueChanged.AddListener(SetFullscreen);
     }
 
+
+
     private void SetMusicVolumen(float value)
     {
         float volumen = Mathf.Clamp(Mathf.Log10(value) * 20, -80, 0);

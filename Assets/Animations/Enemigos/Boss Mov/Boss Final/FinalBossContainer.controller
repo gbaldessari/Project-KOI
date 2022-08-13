@@ -76,32 +76,55 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-6503917198864771232
-AnimatorState:
-  serializedVersion: 6
+--- !u!1101 &-8889734237800502530
+AnimatorStateTransition:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Salida
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: b485542c2c070c44fa80c6fb3d7254ee, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Entrada
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: LAL
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Ola
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: LALL
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: TrianguloInv
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Triangulo
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Medio
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: W
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Salida
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 5833889816625194978}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.9763597
+  m_TransitionOffset: 0
+  m_ExitTime: 0.0000000010493777
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
 --- !u!1102 &-6453762915557042014
 AnimatorState:
   serializedVersion: 6
@@ -276,55 +299,6 @@ AnimatorStateTransition:
   m_TransitionDuration: 3.8336241
   m_TransitionOffset: 0
   m_ExitTime: 0.000000005800452
-  m_HasExitTime: 0
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
---- !u!1101 &-2745967261892661891
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: Entrada
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: LAL
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: Ola
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: LALL
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: TrianguloInv
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: Triangulo
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: Medio
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: W
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: Salida
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: -6503917198864771232}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 3.9442458
-  m_TransitionOffset: 0
-  m_ExitTime: 0
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -568,11 +542,11 @@ AnimatorStateMachine:
     m_State: {fileID: -6453762915557042014}
     m_Position: {x: 540, y: 320, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -6503917198864771232}
+    m_State: {fileID: 5833889816625194978}
     m_Position: {x: 70, y: 180, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
-  - {fileID: -2745967261892661891}
+  - {fileID: -8889734237800502530}
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
@@ -804,6 +778,32 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: ed766a5cec4dcda4ba358f50618e34e9, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &5833889816625194978
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Final
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 664527d2c5dab874f815c7e1738d8bcb, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

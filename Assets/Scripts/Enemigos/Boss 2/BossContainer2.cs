@@ -25,6 +25,11 @@ public class BossContainer2 : MonoBehaviour
     public GameObject extraLife;
     public GameObject basedCore;
 
+    private float tempoWarning = 2.5f;
+    public GameObject warningUp0;
+    public GameObject warningUp1;
+    public GameObject warningUp2;
+
     void Start()
     {
         vidas = boss.GetVidas();
@@ -346,7 +351,20 @@ public class BossContainer2 : MonoBehaviour
 
     public void IniciarEncuentro()
     {
-        inicio = true;
+        tempoWarning -= Time.deltaTime;
+        if (tempoWarning > 0)
+        {
+            warningUp0.SetActive(true);
+            warningUp1.SetActive(true);
+            warningUp2.SetActive(true);
+        }
+        else
+        {
+            warningUp0.SetActive(false);
+            warningUp1.SetActive(false);
+            warningUp2.SetActive(false);
+            inicio = true;
+        }
     }
     public int GetEstado()
     {

@@ -35,7 +35,7 @@ public class LoadingLevelProgress : MonoBehaviour
         "If you are reading this, you are special to us!",
         "Hi mom, I made a game!",
         "Their own technology allowed us to face them",
-        "We believe that they come from the planet KOI-456.04",
+        "We believe that they come from the planet KOI-456",
         "They...are like us...they are human",
         "Only you can save the earth...we trust you",
         "Sorry if some translations are wrong, we use google translate xd",
@@ -45,7 +45,9 @@ public class LoadingLevelProgress : MonoBehaviour
         "F*ck the Allay, all my homies want the Copper Golem",
         "Why are they attacking us?",
         "Be better, be Based",
-        "The name of certain warriors unlocks special colors"
+        "The name of certain warriors unlocks special colors",
+        "We didn't start this war... or did we?",
+        "See our trailer!!https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     };
 
 
@@ -67,7 +69,7 @@ public class LoadingLevelProgress : MonoBehaviour
     {
         levelTitle.GetComponent<TextMeshProUGUI>().text = "Mission " + levelNumber; // Canbia el título del nivel (Ex: Mission 1)
         levelNameText.GetComponent<TextMeshProUGUI>().text = levelName; // Cambia el nombre del nivel
-        hintText.GetComponent<TextMeshProUGUI>().text = hints[Random.Range(0, hints.Count - 1)];
+        hintText.GetComponent<TextMeshProUGUI>().text = hints[Random.Range(0, hints.Count)];
         StartCoroutine(LoadScene(levelNumber)); // Carga la escena asincrónicamente y actualiza el progress bar
     }
 
@@ -112,7 +114,7 @@ public class LoadingLevelProgress : MonoBehaviour
                 progressText.GetComponent<TextMeshProUGUI>().text = "Press any key to continue"; // Cambiar al texto de carga terminada
                 OnSceneLoaded();
 
-                if (Keyboard.current.anyKey.isPressed) // Espera que presiones una tecla para continuar
+                if (Keyboard.current.anyKey.isPressed || Gamepad.current.aButton.isPressed || Gamepad.current.bButton.isPressed || Gamepad.current.xButton.isPressed || Gamepad.current.yButton.isPressed || Gamepad.current.startButton.isPressed || Mouse.current.leftButton.isPressed || Mouse.current.rightButton.isPressed) // Espera que presiones una tecla para continuar
                     asyncOperation.allowSceneActivation = true; // Activa la escena
             }
 
