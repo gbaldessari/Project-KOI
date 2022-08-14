@@ -29,6 +29,10 @@ public class SuperBossContainer : MonoBehaviour
     public GameObject warningUp0;
     public GameObject warningUp1;
     public GameObject warningUp2;
+    public GameObject warningUp3;
+    public GameObject warningUp4;
+    public GameObject warningUp5;
+    public GameObject warningUp6;
 
     void Start()
     {
@@ -675,12 +679,20 @@ public class SuperBossContainer : MonoBehaviour
             warningUp0.SetActive(true);
             warningUp1.SetActive(true);
             warningUp2.SetActive(true);
+            warningUp3.SetActive(true);
+            warningUp4.SetActive(true);
+            warningUp5.SetActive(true);
+            warningUp6.SetActive(true);
         }
         else
         {
             warningUp0.SetActive(false);
             warningUp1.SetActive(false);
             warningUp2.SetActive(false);
+            warningUp3.SetActive(false);
+            warningUp4.SetActive(false);
+            warningUp5.SetActive(false);
+            warningUp6.SetActive(false);
             inicio = true;
         }
     }

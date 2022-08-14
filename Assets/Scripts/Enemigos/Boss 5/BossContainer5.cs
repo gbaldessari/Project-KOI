@@ -58,6 +58,9 @@ public class BossContainer5 : MonoBehaviour
             gameObject.GetComponent<Animator>().SetBool("Medio", false);
             gameObject.GetComponent<Animator>().SetBool("Ola", false);
             gameObject.GetComponent<Animator>().SetBool("Salida", false);
+            warningUp0.SetActive(false);
+            warningUp1.SetActive(false);
+            warningUp2.SetActive(false);
         }
 
         if (cronometro >= tiempoInicial && contadorEstado == 0)
@@ -607,9 +610,6 @@ public class BossContainer5 : MonoBehaviour
         }
         else
         {
-            warningUp0.SetActive(false);
-            warningUp1.SetActive(false);
-            warningUp2.SetActive(false);
             inicio = true;
         }
     }

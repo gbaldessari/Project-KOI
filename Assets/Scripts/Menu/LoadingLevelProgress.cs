@@ -47,7 +47,7 @@ public class LoadingLevelProgress : MonoBehaviour
         "Be better, be Based",
         "The name of certain warriors unlocks special colors",
         "We didn't start this war... or did we?",
-        "See our trailer!!https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        "See our trailer!! https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     };
 
 
