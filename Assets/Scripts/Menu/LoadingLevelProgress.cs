@@ -114,7 +114,7 @@ public class LoadingLevelProgress : MonoBehaviour
                 progressText.GetComponent<TextMeshProUGUI>().text = "Press any key to continue"; // Cambiar al texto de carga terminada
                 OnSceneLoaded();
 
-                if (Keyboard.current.anyKey.isPressed || Gamepad.current.aButton.isPressed || Gamepad.current.bButton.isPressed || Gamepad.current.xButton.isPressed || Gamepad.current.yButton.isPressed || Gamepad.current.startButton.isPressed || Mouse.current.leftButton.isPressed || Mouse.current.rightButton.isPressed) // Espera que presiones una tecla para continuar
+                if (Keyboard.current.anyKey.isPressed || Mouse.current.leftButton.isPressed || Mouse.current.rightButton.isPressed) // Espera que presiones una tecla para continuar
                     asyncOperation.allowSceneActivation = true; // Activa la escena
             }
 
