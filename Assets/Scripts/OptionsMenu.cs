@@ -33,31 +33,14 @@ public class OptionsMenu : MonoBehaviour
 
     private void Start()
     {
-        bool foundRes = false;
-
         for(int i = 0;i < resolutions.Count; i++)
         {
             if(Screen.height == resolutions[i].vertical)
             {
-                foundRes = true;
                 selectedResolution = i;
 
                 UpdateRes();
             }
-        }
-
-        if (!foundRes)
-        {
-            ResItem newRes = new()
-            {
-                vertical = Screen.height,
-                horizontal = (Screen.height / 3) * 4
-            };
-
-            resolutions.Add(newRes);
-            selectedResolution = resolutions.Count - 1;
-
-            UpdateRes();
         }
     }
 
@@ -85,7 +68,7 @@ public class OptionsMenu : MonoBehaviour
 
     public void UpdateRes()
     {
-        resolutionLabel.text = resolutions[selectedResolution].horizontal.ToString() + "x" + resolutions[selectedResolution].vertical.ToString();
+        resolutionLabel.text = ((resolutions[selectedResolution].vertical*16)/9).ToString() + "x" + resolutions[selectedResolution].vertical.ToString();
     }
     public void ApplyGraphics()
     {

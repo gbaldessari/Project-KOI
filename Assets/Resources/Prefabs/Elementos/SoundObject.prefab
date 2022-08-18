@@ -755,7 +755,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: -4785824154666003778, guid: 5f9a036978db5694da8055019daf46d8, type: 2}
   m_audioClip: {fileID: 8300000, guid: 61a92b54f05155d48ab8f4987d9f4446, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.4
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -969,7 +969,7 @@ Transform:
   - {fileID: 7730151387443035167}
   - {fileID: 799084978105810215}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1841321295002204601
 MonoBehaviour:

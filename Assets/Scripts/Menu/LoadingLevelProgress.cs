@@ -17,7 +17,7 @@ public class LoadingLevelProgress : MonoBehaviour
     private bool isTimePassed = false;
     private bool sceneLoadedEventTriggered = false;
 
-    private readonly List<string> hints = new List<string>()
+    private readonly List<string> hints = new()
     {
         "Get an attack boost by collecting 40 Based Coins without dying!",
         "Press and hold [Slowdown] for extra accuracy",
@@ -42,12 +42,13 @@ public class LoadingLevelProgress : MonoBehaviour
         "It is incredible that they have such advanced technology, can we replicate it?",
         "We believe that its base is on Easter Island, that would explain the moai that are appearing in the rest of the world",
         "The best hint? Enjoy the game",
-        "F*ck the Allay, all my homies want the Copper Golem",
         "Why are they attacking us?",
         "Be better, be Based",
         "The name of certain warriors unlocks special colors",
         "We didn't start this war... or did we?",
-        "See our trailer!! https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        "See our trailer!! https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "If you want to play with a gamepad, you can bind the controls!",
+        "On hard difficulty you only have one life and your life bar recharges slower, be careful!"
     };
 
 
