@@ -29,7 +29,7 @@ public class FileCreationMenu : MonoBehaviour
         { "Orange", 4 }, // Naranja
         { "Agito", 94 }, // (Special) Pastel Blue Agito
         { "Nico", 95 }, // (Special) Rosa Pastel Nico
-        { "Céxar", 96 }, // (Special) Azul Céxar
+        { "Cexar", 96 }, // (Special) Azul Cexar
         { "Lucas", 97 }, // (Special) Azul Oscuro Lucas
         { "Voraz", 98 }, // (Special) Amarillo Voraz
         { "Based", 99 } // (Special) Negro-Like Based

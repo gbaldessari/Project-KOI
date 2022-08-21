@@ -21,10 +21,10 @@ public class PlayerSettingsController : MonoBehaviour
     {
         { "Agito", "#72DDF7" }, // (Special) Pastel Blue Agito
         { "Nico", "#FFC8DD" }, // (Special) Rosa Pastel Nico
-        { "Céxar", "#0AA0FF" }, // (Special) Azul Céxar
+        { "Cexar", "#0AA0FF" }, // (Special) Azul Céxar
         { "Lucas", "#194780" }, // (Special) Azul Oscuro Lucas
         { "Voraz", "#D7CA3A" }, // (Special) Amarillo Voraz
-        { "Based", "#151515" } // (Special) Negro-Like Based
+        { "Based", "#2C2C2C" } // (Special) Negro-Like Based
     };
 
     // Start is called before the first frame update
@@ -51,7 +51,7 @@ public class PlayerSettingsController : MonoBehaviour
     void PlayerNameChecker(string nombre)
     {
         inputField.text = nombre.Trim();
-        if (nombre.Length > 5) inputField.text = nombre.Substring(0, 5);
+        if (nombre.Length > 8) inputField.text = nombre.Substring(0, 8);
 
         if (opciones_colores_especiales.ContainsKey(nombre)) dropdown.options.Add(new TMP_Dropdown.OptionData(nombre + "'s Special"));
         else UpdateColorsList();

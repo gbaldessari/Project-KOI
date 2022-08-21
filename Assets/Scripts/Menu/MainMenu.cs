@@ -21,7 +21,7 @@ public class MainMenu : MonoBehaviour
         { 96, "#0AA0FF" }, // (Special) Azul Céxar
         { 97, "#023E8A" }, // (Special) Azul Oscuro Lucas
         { 98, "#FFEE32" }, // (Special) Amarillo Voraz
-        { 99, "#0D060F" } // (Special) Negro-Like Based
+        { 99, "#2C2C2C" } // (Special) Negro-Like Based
     };
 
     private readonly Dictionary<int, string> slotNumberNames = new()
