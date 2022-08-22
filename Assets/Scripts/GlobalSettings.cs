@@ -40,9 +40,11 @@ public class GlobalSettings : MonoBehaviour
     {
         if (accionesEntradaInitialized) return;
 
-        accionEntradaJugadores = new();
-        accionEntradaJugadores.Add(new InputActions().asset.actionMaps[1]);
-        accionEntradaJugadores.Add(new InputActions().asset.actionMaps[2]);
+        accionEntradaJugadores = new()
+        {
+            new InputActions().asset.actionMaps[1],
+            new InputActions().asset.actionMaps[2]
+        };
 
         CargarBinding();
     }

@@ -478,6 +478,14 @@ PrefabInstance:
       propertyPath: m_enableAutoSizing
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6899340967384400908, guid: ef5384fe149faa74c9a19f5bd7b6672e, type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899340967384400908, guid: ef5384fe149faa74c9a19f5bd7b6672e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 6899340967384400909, guid: ef5384fe149faa74c9a19f5bd7b6672e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -769,7 +777,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_text
-      value: <Button>
+      value: <right button>
       objectReference: {fileID: 0}
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_fontSize
@@ -1469,7 +1477,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_text
-      value: <Button>
+      value: <slow button>
       objectReference: {fileID: 0}
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_fontSize
@@ -2317,7 +2325,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_text
-      value: <Button>
+      value: <UP button>
       objectReference: {fileID: 0}
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_fontSize
@@ -3249,6 +3257,26 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 6899340967384400908, guid: ef5384fe149faa74c9a19f5bd7b6672e, type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899340967384400908, guid: ef5384fe149faa74c9a19f5bd7b6672e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 6899340967384400908, guid: ef5384fe149faa74c9a19f5bd7b6672e, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899340967384400908, guid: ef5384fe149faa74c9a19f5bd7b6672e, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899340967384400908, guid: ef5384fe149faa74c9a19f5bd7b6672e, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6899340967384400909, guid: ef5384fe149faa74c9a19f5bd7b6672e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -3394,7 +3422,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_text
-      value: <Button>
+      value: <left button>
       objectReference: {fileID: 0}
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_fontSize
@@ -7007,7 +7035,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_text
-      value: <Button>
+      value: <based button>
       objectReference: {fileID: 0}
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_fontSize
@@ -19794,7 +19822,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_text
-      value: <Button>
+      value: <down button>
       objectReference: {fileID: 0}
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_fontSize
@@ -22811,7 +22839,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_text
-      value: <Button>
+      value: <fire button>
       objectReference: {fileID: 0}
     - target: {fileID: 1078340745529922622, guid: a20e1debb41b6dc44959cc3230f97fa4, type: 3}
       propertyPath: m_fontSize
@@ -24290,6 +24318,14 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 6899340967384400908, guid: ef5384fe149faa74c9a19f5bd7b6672e, type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6899340967384400908, guid: ef5384fe149faa74c9a19f5bd7b6672e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 6899340967384400909, guid: ef5384fe149faa74c9a19f5bd7b6672e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1

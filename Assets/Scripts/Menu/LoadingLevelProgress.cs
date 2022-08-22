@@ -29,6 +29,9 @@ public class LoadingLevelProgress : MonoBehaviour
         "Bosses can drop an orb of power that will give you an attack boost",
         "Also try Pureya!",
         "Also try Flatworld!",
+        "Also try Minecraft!",
+        "Also try ShiShiGame!",
+        "Also try KOI-456!...wait a minute",
         "Also try Karlson...if it was already released!",
         "Moai are monolithic human figures carved by the Rapa Nui people on Easter Island in eastern Polynesia between the years 1250 and 1500",
         "The Pudu is a species of South American deer, and is the smallest deer in the world",
@@ -48,7 +51,15 @@ public class LoadingLevelProgress : MonoBehaviour
         "We didn't start this war... or did we?",
         "See our trailer!! https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         "If you want to play with a gamepad, you can bind the controls!",
-        "On hard difficulty you only have one life and your life bar recharges slower, be careful!"
+        "On hard difficulty you only have one life and your life bar recharges slower, be careful!",
+        "Lucas? a forgotten legend",
+        "Nico? haven't heard that name in a long time",
+        "Cexar? our savior",
+        "Agito? a valuable fighter",
+        "Voraz? a based warrior",
+        "How did we get to this?",
+        "What a beautiful melody",
+        "Yellow is the best color"
     };
 
 

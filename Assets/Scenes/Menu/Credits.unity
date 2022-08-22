@@ -1745,9 +1745,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n\nLucas Oliver\nGiacomo \"Voraz\" Baldessari\n\nC\xE9sar \"C\xE9xar\"
-    Mu\xF1oz\nGiacomo Baldessari\n\nNicol\xE1s Cordero\n\nNicol\xE1s Cordero\nGiacomo
-    Baldessari\nC\xE9sar Mu\xF1oz\n\nCrist\xF3bal \"Agito\" Salas"
+  m_text: "\n\nLucas Oliver\nGiacomo Baldessari\n\nC\xE9sar Mu\xF1oz\nGiacomo Baldessari\n\nNicol\xE1s
+    Cordero\n\nNicol\xE1s Cordero\nGiacomo Baldessari\nC\xE9sar Mu\xF1oz\n\nCrist\xF3bal
+    Salas"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

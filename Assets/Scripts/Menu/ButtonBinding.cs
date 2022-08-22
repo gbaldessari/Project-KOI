@@ -65,7 +65,7 @@ public class ButtonBinding : MonoBehaviour
             .OnCancel(operation => RebindCanceled());
 
         if (isComposite) rebindingOperation.WithTargetBinding(accionEntradaJugador.actions[actionIndex].bindings.IndexOf(x => x.isPartOfComposite && x.name.ToLower() == COMPOSITEKEYS[compositeValue]));
-
+        
         rebindingOperation.Start();
     }
 
