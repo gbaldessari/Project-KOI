@@ -1,8 +1,10 @@
 using System.Collections;
 using UnityEngine;
+using System;
 using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Controls;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 
@@ -30,9 +32,13 @@ public class LoadingLevelProgress : MonoBehaviour
         "Also try Pureya!",
         "Also try Flatworld!",
         "Also try Minecraft!",
+        "Also try Hollow Knight!",
+        "Also try Cuphead!",
+        "Also try Terraria!",
         "Also try ShiShiGame!",
         "Also try KOI-456!...wait a minute",
         "Also try Karlson...if it was already released!",
+        "Also try The Diamond Game!",
         "Moai are monolithic human figures carved by the Rapa Nui people on Easter Island in eastern Polynesia between the years 1250 and 1500",
         "The Pudu is a species of South American deer, and is the smallest deer in the world",
         "If you are reading this, you are special to us!",
@@ -70,6 +76,8 @@ public class LoadingLevelProgress : MonoBehaviour
         levelNameText = transform.GetChild(1).gameObject;
         progressText = transform.GetChild(2).gameObject;
         hintText = transform.GetChild(3).gameObject;
+
+        
     }
 
     /// <summary>
@@ -81,7 +89,7 @@ public class LoadingLevelProgress : MonoBehaviour
     {
         levelTitle.GetComponent<TextMeshProUGUI>().text = "Mission " + levelNumber; // Canbia el título del nivel (Ex: Mission 1)
         levelNameText.GetComponent<TextMeshProUGUI>().text = levelName; // Cambia el nombre del nivel
-        hintText.GetComponent<TextMeshProUGUI>().text = hints[Random.Range(0, hints.Count)];
+        hintText.GetComponent<TextMeshProUGUI>().text = hints[UnityEngine.Random.Range(0, hints.Count)];
         StartCoroutine(LoadScene(levelNumber)); // Carga la escena asincrónicamente y actualiza el progress bar
     }
 
@@ -126,8 +134,20 @@ public class LoadingLevelProgress : MonoBehaviour
                 progressText.GetComponent<TextMeshProUGUI>().text = "Press any key to continue"; // Cambiar al texto de carga terminada
                 OnSceneLoaded();
 
-                if (Keyboard.current.anyKey.isPressed || Mouse.current.leftButton.isPressed || Mouse.current.rightButton.isPressed) // Espera que presiones una tecla para continuar
-                    asyncOperation.allowSceneActivation = true; // Activa la escena
+                try
+                {
+                    if (Gamepad.current.buttonSouth.isPressed || Gamepad.current.buttonNorth.isPressed || Gamepad.current.buttonWest.isPressed || Gamepad.current.buttonEast.isPressed
+                        || Gamepad.current.rightShoulder.isPressed || Gamepad.current.rightTrigger.isPressed || Gamepad.current.leftShoulder.isPressed || Gamepad.current.leftTrigger.isPressed
+                        || Gamepad.current.startButton.isPressed || Gamepad.current.selectButton.isPressed || Gamepad.current.leftStickButton.isPressed || Gamepad.current.rightStickButton.isPressed
+                        || Gamepad.current.dpad.up.isPressed || Gamepad.current.dpad.down.isPressed || Gamepad.current.dpad.left.isPressed || Gamepad.current.dpad.right.isPressed) // Espera que presiones una boton para continuar
+                        asyncOperation.allowSceneActivation = true; // Activa la escena
+                }
+                catch (NullReferenceException)
+                {
+                    if (Keyboard.current.anyKey.isPressed || Mouse.current.leftButton.isPressed || Mouse.current.rightButton.isPressed) // Espera que presiones una tecla para continuar
+                        asyncOperation.allowSceneActivation = true; // Activa la escena
+
+                }
             }
 
             yield return null; // Retorna null para próxima carga
