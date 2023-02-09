@@ -1,2 +1,2 @@
 # Project-KOI
- An indie game of the bullet hell genre made by Giacomo Baldessari
+ A bullet hell indie game  made by Giacomo Baldessari
