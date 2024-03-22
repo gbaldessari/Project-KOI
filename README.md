@@ -1,2 +1,2 @@
 # Project-KOI
- A bullet hell indie game
+ My own vision of the game [KOI-456](https://github.com/CexarTheScarf/KOI-456)
